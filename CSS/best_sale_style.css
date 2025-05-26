@@ -1,0 +1,133 @@
+section {
+    width: 1440px;
+    padding: 50px 20px;
+    margin: 0 auto;
+
+}
+
+section>h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+section>p {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.best_art {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.detail_product img {
+    width: 335px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.detail_caption>h3 {
+    font-size: 16px;
+    color: #000;
+}
+
+.detail_caption>h4 {
+    font-size: 15px;
+    color: #374700;
+}
+
+.sale_flex {
+    display: flex;
+    gap: 10px;
+}
+
+.sale_flex>h4 {
+    font-size: 15px;
+    color: #374700;
+}
+
+.sale_price {
+    font-size: 13px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.review {
+    font-size: 12px;
+    color: #858585;
+}
+
+.review_count {
+    font-size: 12px;
+    color: #858585;
+}
+
+.explain {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+}
+
+.moving {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.product_move>a {
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+
+.thm_first {
+    width: 450px;
+    height: 300px;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+}
+
+.thm_bath {
+    background-image: url(./../IMG/bath_first.png);
+}
+
+.thm_kit {
+    background-image: url(./../IMG/kitchen_first.png);
+}
+
+.thm_diy {
+    background-image: url(./../IMG/diy_first.png);
+}
+
+.thm_first>p {
+    font-size: 0;
+    text-align: center;
+    padding-top: 125px;
+    overflow: hidden;
+    transition-duration: 1s;
+}
+
+.thm_bath:hover {
+    background-image: url(./../IMG/bath_first_click.png);
+}
+
+.thm_kit:hover {
+    background-image: url(./../IMG/kitchen_first_click.png);
+}
+
+.thm_diy:hover {
+    background-image: url(./../IMG/diy_first_click.png);
+}
+
+.thm_first:hover>p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 125px;
+    color: #fff;
+}

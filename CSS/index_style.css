@@ -1,0 +1,267 @@
+#first_main {
+    width: 1440px;
+    padding: 50px 20px;
+    margin: 0 auto;
+
+}
+
+#second_main {
+    width: 1440px;
+    padding: 100px 20px 0;
+    margin: 0 auto;
+}
+
+.main_icon {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.drop_icon {
+    position: relative;
+}
+
+.down_icon {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.drop_icon_ex {
+    width: 200px;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    transition-duration: 1s;
+    background-color: #fff;
+    border-radius: 0 0 25px 25px;
+    box-shadow: #757575 2px 2px 3px;
+}
+
+.drop_icon_ex>p {
+    color: #757575;
+    padding: 10px 5px;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+}
+
+.drop_icon:hover>.drop_icon_ex {
+    width: 200px;
+    height: 80px;
+    display: block;
+}
+
+.icon_ex_point {
+    font-size: 14px;
+    font-weight: bold;
+    color: #617a0e;
+}
+
+.down_icon {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.down_icon1 {
+    background-image: url(./../IMG/earth.png);
+}
+
+.down_icon2 {
+    background-image: url(./../IMG/flo.png);
+}
+
+.down_icon3 {
+    background-image: url(./../IMG/half.png);
+}
+
+.down_icon4 {
+    background-image: url(./../IMG/leaf.png);
+}
+
+.down_icon5 {
+    background-image: url(./../IMG/present.png);
+}
+
+.down_icon:hover {
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.down_icon1:hover {
+    background-image: url(./../IMG/earth_click.png);
+}
+
+.down_icon2:hover {
+    background-image: url(./../IMG/wer.png);
+}
+
+.down_icon3:hover {
+    background-image: url(./../IMG/heart2.png);
+}
+
+.down_icon4:hover {
+    background-image: url(./../IMG/leaf_click.png);
+}
+
+.down_icon5:hover {
+    background-image: url(./../IMG/present_click.png);
+}
+
+
+.moving {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.thm_first {
+    width: 335px;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+}
+
+.thm_bath {
+    background-image: url(./../IMG/bath_first.png);
+}
+
+.thm_kit {
+    background-image: url(./../IMG/kitchen_first.png);
+}
+
+.thm_diy {
+    background-image: url(./../IMG/diy_first.png);
+}
+
+.thm_first>p {
+    font-size: 0;
+    padding: 400px 0 0 10px;
+    overflow: hidden;
+    transition-duration: 1s;
+}
+
+.thm_bath:hover {
+    background-image: url(./../IMG/bath_first_click.png);
+}
+
+.thm_kit:hover {
+    background-image: url(./../IMG/kitchen_first_click.png);
+}
+
+.thm_diy:hover {
+    background-image: url(./../IMG/diy_first_click.png);
+}
+
+.thm_first:hover>p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    padding: 400px 0 0 10px;
+}
+
+.detail_product img {
+    width: 335px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.detail_caption>h3 {
+    font-size: 16px;
+    color: #000;
+}
+
+.detail_caption>h4 {
+    font-size: 15px;
+    color: #374700;
+}
+
+.sale_flex {
+    display: flex;
+    gap: 10px;
+}
+
+.sale_flex>h4 {
+    font-size: 15px;
+    color: #374700;
+}
+
+.sale_price {
+    font-size: 13px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+
+.review {
+    font-size: 12px;
+    color: #858585;
+}
+
+.review_count {
+    font-size: 12px;
+    color: #858585;
+}
+
+.explain {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.thm_news {
+    width: 455px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.news_tit {
+    font-size: 0;
+    margin-top: calc(50% - 115px);
+    overflow: hidden;
+    transition-duration: 1s;
+}
+
+.thm_news1 {
+    background-image: url(./../IMG/thm_news1.jpg);
+}
+
+.thm_news2 {
+    background-image: url(./../IMG/thm_news2.jpg);
+}
+
+.thm_news3 {
+    background-image: url(./../IMG/thm_news3.jpg);
+}
+
+.thm_news:hover>.news_tit {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: calc(50% - 115px);
+}
+
+.thm_news1:hover {
+    background-image: url(./../IMG/thm_news1_click.jpg);
+}
+
+.thm_news2:hover {
+    background-image: url(./../IMG/thm_news2_click.jpg);
+}
+
+.thm_news3:hover {
+    background-image: url(./../IMG/thm_news3_click.jpg);
+}
